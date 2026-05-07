@@ -1,6 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import { FloatingHearts } from "@/components/FloatingHearts";
+import photo1 from "@/assets/photos/photo1.jpg";
+import photo2 from "@/assets/photos/photo2.jpg";
+import photo3 from "@/assets/photos/photo3.jpg";
+import photo4 from "@/assets/photos/photo4.jpg";
+import photo5 from "@/assets/photos/photo5.jpg";
+import photo6 from "@/assets/photos/photo6.jpg";
 
 export const Route = createFileRoute("/love")({
   head: () => ({
@@ -13,14 +19,7 @@ export const Route = createFileRoute("/love")({
 });
 
 // Replace these placeholder URLs with your own photos & video later.
-const PHOTOS = [
-  "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=1200&q=80",
-  "https://images.unsplash.com/photo-1529636798458-92182e662485?w=1200&q=80",
-  "https://images.unsplash.com/photo-1525361594957-3b554f4dac42?w=1200&q=80",
-  "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?w=1200&q=80",
-  "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=1200&q=80",
-  "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=80",
-];
+const PHOTOS = [photo1, photo2, photo3, photo4, photo5, photo6];
 
 // Replace with your own romantic video file (e.g. /videos/our-story.mp4)
 const VIDEO_SRC = "https://cdn.coverr.co/videos/coverr-a-couple-in-love-2633/1080p.mp4";
