@@ -59,7 +59,7 @@ function Index() {
           className="title-romantic text-5xl font-bold leading-tight sm:text-7xl md:text-8xl animate-fade-up"
           style={{ animationDelay: ".3s" }}
         >
-          Will You Be Mine?
+          I Love You
         </h1>
 
         <div className="relative animate-rose animate-fade-up" style={{ animationDelay: ".5s" }}>
@@ -79,7 +79,7 @@ function Index() {
             className="animate-glow rounded-full px-10 py-4 text-lg font-semibold text-primary-foreground transition-transform hover:scale-110"
             style={{ background: "var(--gradient-rose)" }}
           >
-            Accept 💖
+            I love you too 💖
           </button>
 
           <button
@@ -93,7 +93,7 @@ function Index() {
               ...rejectStyle,
             }}
           >
-            Reject 💔
+            No you don't 💔
           </button>
         </div>
 
